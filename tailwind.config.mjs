@@ -10,8 +10,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary:"#2752E7"
       },
+      fontFamily:{
+        poppins:"Poppins",
+        notoSans:"Noto Sans",
+      
+      }
     },
   },
   plugins: [],
+  darkMode:"class"
 };
