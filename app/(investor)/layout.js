@@ -3,7 +3,9 @@ import Navbar from "@/components/investor/Navbar";
 export default function layout({ children }) {
     return (
         <div>
-            <Navbar />
+          <div className="hidden lg:block">
+          <Navbar />
+          </div>
             {children}
         </div>
     );
